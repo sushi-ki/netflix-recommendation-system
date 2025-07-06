@@ -57,7 +57,8 @@ This hybrid design demonstrates your understanding of:
    ```bash
    pip install -r requirements.txt
 2.Start the Flask app:
-python app.py
+streamlit run app.py
+
 
 3.Open your browser and go to:
 http://127.0.0.1:5000/

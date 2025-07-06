@@ -20,7 +20,9 @@ It analyzes movie metadata and viewer ratings to suggest similar titles, and inc
 
 - `netflxsystem.ipynb` – Jupyter Notebook with EDA and ML logic  
 - `app.py` – Flask app for running the recommendation system as a web application  
-- `ntflx.html` – A static frontend UI that mimics Netflix's interface  
+- `index.html`
+- `result.html`
+- `moviepage.html` 
 - `moviesdta.csv` – Cleaned dataset used in this project  
 - `requirements.txt` – List of Python dependencies  
 - `README.md` – Project documentation (this file)

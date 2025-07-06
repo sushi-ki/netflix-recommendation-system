@@ -51,7 +51,7 @@ This hybrid design demonstrates your understanding of:
 
 ## ▶️ How to Run
 
-### 🌐 Option 2: Run as a Web App
+### 🌐  Run as a Web App
 
 1. Install required libraries:
    ```bash

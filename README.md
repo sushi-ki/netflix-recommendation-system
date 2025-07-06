@@ -3,58 +3,66 @@
 
 
 This project is a **content-based recommendation system** built using a custom dataset (`moviesdta.csv`).  
-It analyzes movie metadata and viewer ratings to suggest similar titles, and includes a visual, web-based interface using Flask via `app.py`.
+It analyzes movie metadata and viewer ratings to suggest similar titles, and includes both a visual interface and machine learning backend.
 
 ---
 
 ## 📌 Features
-
-- 📊 Exploratory Data Analysis (EDA) on the Netflix dataset
-- 🧠 Content-based filtering using **cosine similarity** on genres and descriptions
-- 🎨 Visualizations using **Matplotlib**, **Seaborn**, and **Plotly**
-- 🌐 Web app interface using **Flask** (`app.py`)
+- 📊 Exploratory Data Analysis (EDA) on the Netflix dataset  
+- 🧠 Content-based filtering using **cosine similarity** on genres and descriptions  
+- 🎨 Visualizations using **Matplotlib**, **Seaborn**, and **Plotly**  
+- 🌐 Frontend UI using custom HTML layout  
 - 🗂 Works on a cleaned CSV dataset (`moviesdta.csv`)
 
 ---
 
 ## 📁 Project Structure
 
-Netflix-Recommendation-System/
-├── netflxsystem.ipynb # Jupyter Notebook with EDA + ML logic
-├── app.py # Flask app for web-based interaction
-├── moviesdta.csv # Netflix dataset used in the project
-├── requirements.txt # Python dependencies (optional but recommended)
-└── README.md # You're reading it!
+- `netflxsystem.ipynb` – Jupyter Notebook with EDA and ML logic  
+- `app.py` – Flask app for running the recommendation system as a web application  
+- `ntflx.html` – A static frontend UI that mimics Netflix's interface  
+- `moviesdta.csv` – Cleaned dataset used in this project  
+- `requirements.txt` – List of Python dependencies  
+- `README.md` – Project documentation (this file)
 
-## 🔍 Dataset Info
+## 🌐 Hybrid Project Overview
 
-The project uses a modified Netflix dataset:
-- Filename: `moviesdta.csv`
-- Encoding: `'latin-1'`
-- Index column: `Title`
-- Columns: `Series or Movie`, `ViewerRating`, `Genres`, and other metadata
+This project simulates a **full-stack ML recommendation system** with two components:
+
+- 🖼 **Frontend UI**: An HTML page (`ntflx.html`) that mimics the Netflix interface — including search bars, filters, and recommendation layout.
+- 🧪 **Backend ML Logic**: A Jupyter Notebook (`netflxsystem.ipynb`) containing the content-based recommendation system, built using Python and scikit-learn.
+
+### 🧩 How They Relate
+
+Although the HTML UI is static, and not directly connected to the Python logic, the project structure is designed to **simulate a real-world full-stack deployment**, where:
+
+- The **user interacts with the frontend**, searching or selecting a movie.
+- The **backend ML model** processes the input and returns top 5 recommendations.
+- (In a live app, this would be done via Flask or Streamlit APIs.)
+
+### 💡 Why This Approach?
+
+This hybrid design demonstrates your understanding of:
+- UI/UX in real applications  
+- Core machine learning pipelines  
+- Full-stack product thinking
+
+---
 
 ## ▶️ How to Run
-
-### 🧪 Option 1: Run Jupyter Notebook
-bash
-jupyter notebook
-Open netflxsystem.ipynb
-Run all cells
-Try exploring the similarity model and visualization outputs
 
 ### 🌐 Option 2: Run as a Web App
 
 1. Install required libraries:
    ```bash
    pip install -r requirements.txt
-   Start the Flask app:
+2.Start the Flask app:
 python app.py
-Open your browser and go to:
+
+3.Open your browser and go to:
 http://127.0.0.1:5000/
 
 ## 🧾 Requirements
-
 Install with pip:
 
 pip install pandas matplotlib seaborn plotly scikit-learn flask
@@ -64,17 +72,21 @@ pip install -r requirements.txt
 
 ## 🧠 Techniques Used
 
--Data cleaning and normalization with Pandas
--Genre extraction and text pre-processing
--NLP with CountVectorizer
--Similarity via cosine_similarity
--Visualizations: Pie charts, bar plots, heatmaps
--Flask routing and dynamic movie recommendations
+Data cleaning and normalization with Pandas
+Genre extraction and text pre-processing
+NLP with CountVectorizer
+Similarity via cosine_similarity
+Visualizations: Pie charts, bar plots, heatmaps
+Flask routing and dynamic movie recommendations
 
 ## 🙋‍♀️ Author
+
 Kirti Khatri
 This Netflix-style content recommender project showcases real-world ML and web integration.
 Made with 💖 for learning and demonstrating recommendation systems.
+
+
+
 
 
 

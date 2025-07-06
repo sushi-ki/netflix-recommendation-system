@@ -63,7 +63,7 @@ streamlit run app.py
 
 
 3.Open your browser and go to:
-http://127.0.0.1:5000/
+http://172.20.10.2:8501
 
 ## 🧾 Requirements
 Install with pip:

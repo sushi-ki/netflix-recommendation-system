@@ -37,5 +37,51 @@ The project uses a modified Netflix dataset:
 ## ▶️ How to Run
 
 ### 🧪 Option 1: Run Jupyter Notebook
-```bash
+bash
 jupyter notebook
+Open netflxsystem.ipynb
+Run all cells
+Try exploring the similarity model and visualization outputs
+
+### 🌐 Option 2: Run as a Web App
+
+1. Install required libraries:
+   ```bash
+   pip install -r requirements.txt
+   Start the Flask app:
+python app.py
+Open your browser and go to:
+http://127.0.0.1:5000/
+
+## 🧾 Requirements
+
+Install with pip:
+
+pip install pandas matplotlib seaborn plotly scikit-learn flask
+Or simply use the requirements file:
+
+pip install -r requirements.txt
+
+## 🧠 Techniques Used
+
+-Data cleaning and normalization with Pandas
+-Genre extraction and text pre-processing
+-NLP with CountVectorizer
+-Similarity via cosine_similarity
+-Visualizations: Pie charts, bar plots, heatmaps
+-Flask routing and dynamic movie recommendations
+
+## 🙋‍♀️ Author
+Kirti Khatri
+This Netflix-style content recommender project showcases real-world ML and web integration.
+Made with 💖 for learning and demonstrating recommendation systems.
+
+
+
+
+
+
+
+
+
+

@@ -81,7 +81,8 @@ Flask routing and dynamic movie recommendations
 
 ## 🙋‍♀️ Author
 
-Kirti Khatri
+-Kirti Khatri
+
 This Netflix-style content recommender project showcases real-world ML and web integration.
 Made with 💖 for learning and demonstrating recommendation systems.
 
